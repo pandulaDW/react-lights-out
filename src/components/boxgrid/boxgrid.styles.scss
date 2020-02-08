@@ -1,0 +1,12 @@
+.BoxGrid {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  grid-gap: 0.5rem;
+}

@@ -1,0 +1,26 @@
+.Box {
+  cursor: pointer;
+}
+
+.inactive {
+  background-color: rgb(7, 29, 39);
+}
+
+.active {
+  background-color: #6ebcf0;
+  opacity: 0.4;
+  animation: opacityAnimate 2.5s infinite;
+}
+
+@keyframes opacityAnimate {
+  0%,
+  100% {
+    opacity: 1;
+    background-color: #6ebcf0;
+  }
+
+  50% {
+    opacity: 0.8;
+    background-color: #2356ff;
+  }
+}
